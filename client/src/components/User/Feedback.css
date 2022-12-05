@@ -1,0 +1,77 @@
+.Feedback a{
+  display: block;
+  text-decoration: none;
+
+}
+
+.Feedback a:hover{
+  text-decoration: none;
+}
+
+
+.Feedback {
+  display: flex;
+  padding: 100px 0;
+}
+
+.Feedback--menu {
+  width: 20%;
+  line-height: 2;
+  font-weight: bold;
+  border-left:1px solid #D9D9D9 ;
+}
+
+
+.Feedback--card {
+  padding: 50px 40px;
+  width: 80%;
+  min-height: 500px;
+  background: #fff;
+  font-family: 'Poppins';
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.Feedback--card--none {
+  padding: 50px 40px;
+  width: 80%;
+  min-height: 500px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #333333;
+  background: #fff;
+}
+
+.Feedback--card--none section{
+  padding: 200px 80px;
+  background:#F4F5F7;
+}
+
+.Feedback--title{
+  padding: 80px 0 100px 0;
+}
+
+.Feedback--btn{
+  /* padding: 4px 30px; */
+  background: #ED8C4E;
+  border: none;
+  width: 70px;
+  align-self: flex-end;
+}
+
+.Feedback--btn:hover{
+  background: #CF5100;
+}
+
+
+
+@media (max-width:768px) {
+  .Feedback--card {
+    width: 100%;
+  }
+
+  .Feedback--menu {
+    display: none;
+  }
+}

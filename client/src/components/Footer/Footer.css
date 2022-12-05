@@ -1,0 +1,55 @@
+.footer{
+/* background-color:#F4F5F7; */
+border-top: 2px solid #E6E6E6;
+height: 550px;
+}
+
+.FooterMail{
+    color: #808080;
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing:5px;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-items: center;  
+}
+
+.FooterIcon{
+    margin-top: 300px;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-items: center;  
+}
+
+.v-line{
+    margin-top: 50px;
+    border-left: 1px solid #808080;
+    height:200px;
+    left: 50%;
+    position: absolute;
+   }
+
+.Icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Icon:hover{
+    opacity: 0.5;
+}
+
+.copyRight{
+    color: #808080;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing:3px;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-items: center;  
+}

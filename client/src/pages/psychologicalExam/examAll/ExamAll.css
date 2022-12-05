@@ -1,0 +1,147 @@
+.progressbar {
+  width: 1396px;
+  /* max-width: 1024px; */
+  margin: 20px auto;
+  height: 16px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.progressbar div {
+  height: 100%;
+  background-color: #ed8c4e;
+}
+
+.examHeaderTitle {
+  font-size: 30px;
+  margin: 140px 0px 0px 120px;
+}
+
+/* .topic {
+  margin: 0;
+  border: 1px solid black;
+} */
+
+.ExamQes {
+  font-size: 36px;
+  margin: 20px 0px 0px 120px;
+}
+
+/* .examFormCantainer {
+  position: relative;
+  width: 90%;
+  max-width: 1024px;
+  height: 450px;
+  margin: auto;
+  border: 1px solid black;
+  background-color: white;
+} */
+
+.getOp > input[type="radio"],
+.colorActive > input[type="radio"] {
+  display: none;
+}
+
+/* input[type="radio"] {
+  color: chocolate;
+} */
+
+.getOp {
+  width: 550px;
+  height: 165px;
+  font-size: 30px;
+  /* text-align: center;
+  text-justify: auto; */
+  display: inline-block;
+  margin: 60px -50px 0px 130px;
+  border: 1px solid black;
+  padding: 30px 30px 0px 30px;
+  border-radius: 10px;
+  background-color: white;
+  color: #ed8c4e;
+  box-shadow: 3px 3px 3px rgba(91, 66, 37, 0.3);
+}
+
+.colorActive {
+  width: 550px;
+  height: 165px;
+  font-size: 30px;
+  /* text-align: center;
+  text-justify: auto; */
+  display: inline-block;
+  margin: 60px -50px 0px 130px;
+  border: 1px solid black;
+  padding: 30px 30px 0px 30px;
+  border-radius: 10px;
+  background-color: rgb(247, 183, 105);
+  color: white;
+  box-shadow: 3px 3px 3px rgba(91, 66, 37, 0.3);
+}
+
+/* .topic1 {
+      display: inline-block;
+      border: 1px solid black;
+      width: 600px;
+      height: 150px;
+      margin: 50px;
+    } */
+
+.prevBtn {
+  position: absolute;
+  left: 120px;
+  bottom: 80px;
+  font-size: 100px;
+  background-color: rgb(0, 0, 0, 0);
+  color: #ed8c4e;
+}
+
+.nextBtn {
+  position: absolute;
+  right: 120px;
+  bottom: 80px;
+  padding: 0px;
+  font-size: 100px;
+  background-color: rgb(255, 255, 255, 0);
+  color: #ed8c4e;
+}
+
+.examFormCantainer img {
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.2);
+}
+
+.nextStepResult {
+  position: absolute;
+  width: 550px;
+  height: 74px;
+  bottom: 150px;
+  left: 180px;
+  font-size: 20px;
+  background-color: #0e78ff;
+  color: white;
+}
+
+.HiOutlineArrowCircleRight {
+  margin-top: -5px;
+  font-size: 25px;
+}
+
+.examFormCantainer > h1 {
+  margin: 50px 0px 0px 100px;
+  font-size: 48px;
+}
+
+.personalityDescribe {
+  font-size: 20px;
+  display: inline-block;
+  width: 550px;
+  line-height: 35px;
+  margin: 25px 0px 20px 100px;
+}
+
+.examFormCantainer img {
+  position: absolute;
+  width: 550px;
+  height: 450px;
+  bottom: 150px;
+  right: 250px;
+}

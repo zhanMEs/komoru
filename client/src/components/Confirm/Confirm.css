@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li,ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 976px;
+}
+
+/* 上面為全域設定 */
+
+
+.Confirm{
+  margin: 80px auto;
+  max-width: 500px;
+  border-top:1px solid #454545 ;
+  border-bottom:1px solid #454545 ;
+}
+
+.forgotPW--Confirm{
+    margin: 0 auto;
+    width: 65%;
+    border-top:1px solid #454545 ;
+    border-bottom:1px solid #454545 ;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.Confirm--text{
+  color: #454545;
+  text-align: center;
+  padding: 20px;
+}

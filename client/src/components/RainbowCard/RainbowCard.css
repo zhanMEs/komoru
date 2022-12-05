@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 976px;
+}
+
+/* 上面為全域設定 */
+
+.rainbowCard {
+  /* background: #F4F5F7; */
+  line-height: 3;
+  margin: 0 auto;
+  padding: 120px 40px;
+  position: relative;
+  text-align: center;
+}
+
+.modal-content {
+  background-color: #F4F5F7;
+  border: 3px solid #ED8C4E;
+  border-radius: 1rem;
+}
+
+.rainbowCard--CN {
+  /* color:#CF5100; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  
+}
+
+.rainbowCard--EN {
+  /* color:#ED8C4E; */
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.rainbowCard--download{
+  width: 40px;
+  position: absolute;
+  right:80px;
+  bottom: 30px;
+}
+
+
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 60%;
+    margin: 10% auto;
+}
+}
+
+.modal-body{
+  padding: 0;
+}

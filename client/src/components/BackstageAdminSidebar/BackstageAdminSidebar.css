@@ -1,0 +1,30 @@
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #ED8C4E;
+  text-decoration: none;
+}
+
+.nav-item .nav-link:hover,
+.nav-pills .nav-link:hover {
+  background-color: #ED8C4E;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item,
+.nav-pills .nav-link {
+  /* color:#FFFFFF; /
+    / color: #ED8C4E; */
+  color: #7C7B7B;
+  text-decoration: none;
+  border-radius: 0 !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}

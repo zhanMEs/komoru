@@ -1,0 +1,94 @@
+.roomContainer-L {
+  display: flex;
+  margin-top: -200px;
+  margin-bottom: 200px;
+  margin-left: 280px;
+  width: 720px;
+  justify-content: space-between;
+  z-index: -1;
+}
+.roomContainer-R {
+  display: flex;
+  margin-top: -200px;
+  margin-bottom: 200px;
+  margin-left: 910px;
+  width: 720px;
+  justify-content: space-between;
+  z-index: -1;
+}
+
+.privateRoom {
+  /* border: 1px solid rgb(0, 0, 0); */
+  width: 350px;
+  height: 200px;
+  left: 280px;
+  text-align: center;
+}
+
+.backPackerRoom {
+  /* border: 1px solid black; */
+  width: 350px;
+  height: 200px;
+  text-align: center;
+}
+
+.privateRoom > span,
+.backPackerRoom > span {
+  display: block;
+  width: 350px;
+  height: 200px;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.privateRoom,
+.backPackerRoom {
+  background-size: cover;
+  background-position: center;
+}
+
+/* .backPackerRoom > span {
+  display: block;
+  width: 340px;
+  height: 200px;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .backPackerRoom {
+  background-size: cover;
+  background-position: center;
+} */
+
+.parent {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.child {
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s; */
+  transition: all 0.5s;
+}
+.parent:hover .child {
+  /* -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1); */
+  transform: scale(1.1);
+}

@@ -1,0 +1,13 @@
+.bookingPageImgContainer {
+  position: absolute;
+  margin: 80px 0px 0px 0px;
+  left: 160px;
+  position: relative;
+}
+
+.bookingPageImg {
+  width: 1100px;
+  height: 850px;
+  object-fit: cover;
+  overflow: hidden;
+}

@@ -1,0 +1,109 @@
+.Homepic{
+    margin-left : auto;
+	margin-right: auto;
+    /* width: 1920px; */
+    height:950px;
+}
+
+.about{
+    margin-top: 300px;
+    /* margin-bottom: 200px; */
+    margin-bottom: 100px;
+}
+
+.aboutWords{
+   width: 1000px;
+   margin: 0 auto;
+   font-size:1.3rem;
+   letter-spacing:1px;
+   line-height:40px;
+}
+
+.numberWords{
+    color:#ed8c4e ;
+    font-size: 27px;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-items: center;  
+}
+
+.RoomLine{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.RoomWords{
+/* width: 900px; */
+   /* margin: 0 auto; */
+   font-size:1.3rem;
+   letter-spacing:1px;
+   line-height:40px;
+}
+
+.RoomList{
+    margin-top: 50px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.FeedBackLine{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-top: 2px solid #e6e6e6;
+}
+
+.FeedBackFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.FeedBackLeft{
+    width: 600px;
+}
+
+.FeedBackWords{
+    font-size:1.3rem;
+    letter-spacing:1px;
+    line-height:40px;
+    margin-bottom: 60px;
+}
+
+.FeedBackItem{
+    /* font-size:1.3rem; */
+    margin-top: 25px;
+    letter-spacing:1px;
+    line-height:40px;
+    color: #808080;
+    font-weight: 350;
+}
+
+.FeedBackGo{
+    font-size: 25px;
+    margin-top: 150px;
+}
+
+.FaqLine{
+    margin-top: 150px;
+    border-top: 2px solid #e6e6e6;
+    margin-bottom: 150px;
+}
+
+.FaqTitle{
+       letter-spacing:1px;
+       line-height:40px;
+       margin-bottom: 50px;
+    }
+
+.FaqWords{
+    margin-bottom: 75px;
+    
+}
+
+.HomeFooter{
+    margin-top: 200px;
+}
+
+

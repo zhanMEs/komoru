@@ -1,0 +1,181 @@
+.frame {
+  display: flex;
+  width: 100vh;
+}
+
+/* .fixedProgressItem {
+  position: absolute;
+  border: 1px solid black;
+  margin-top: 40px;
+  font-size: 16px;
+  left: 100px;
+} */
+
+.leftContainer {
+  width: 480px;
+  max-height: 850px;
+  top: 150px;
+  left: 159px;
+  /* margin: 50px 0px 0px 60px; */
+  line-height: 40px;
+  border: 2px solid #ed8c4e;
+  position: sticky;
+  margin-top: 80px;
+  padding: 36px;
+}
+
+/* .rightContainer {
+  top: 130px;
+  position: sticky;
+  margin-top: 80px;
+  width: 1100px;
+} */
+
+.bookingTitle {
+  top: 36px;
+  left: 42px;
+  font-size: 25px;
+  color: #ed8c4e;
+  letter-spacing: 0.5em;
+  border-bottom: 1px #ed8c4e solid;
+  padding-bottom: 20px;
+}
+
+.bookingSearchItem {
+  display: flex;
+  position: relative;
+}
+.activityStateIoMdAlert {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  right: -25px;
+  top: 20px;
+}
+
+.IoMdAlert {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  right: -20px;
+  top: 60px;
+  margin-left: 5px;
+}
+
+.datePickerStyle {
+  margin-top: 44px;
+  width: 400px;
+  height: 64px;
+  font-size: 20px;
+  border: 0.8px solid black;
+  padding: 10px;
+}
+
+.ActivityItem {
+  border: 1px solid black;
+  margin-top: 36px;
+  width: 400px;
+}
+
+/* .headerSearchText {
+  font-size: 20px;
+
+} */
+
+.headerDaySelect,
+.headerCouponSelect {
+  margin-top: 36px;
+  padding: 10px;
+  font-size: 20px;
+  width: 400px;
+  height: 64px;
+}
+
+.roomSelectContainer {
+  display: flex;
+  margin-top: 36px;
+}
+
+.citySelect {
+  padding: 10px;
+  font-size: 20px;
+  width: 150px;
+  height: 64px;
+  margin-right: 10px;
+}
+.roomSelect {
+  padding: 10px;
+  font-size: 20px;
+  width: 240px;
+  height: 64px;
+}
+
+.bookingPageLine {
+  border-bottom: 1px #ed8c4e solid;
+  padding-bottom: 48px;
+  margin-bottom: 28px;
+  width: 400px;
+}
+
+.headerBtn {
+  width: 400px;
+  height: 63px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #0e78ff;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+}
+
+.getActivity {
+  cursor: pointer;
+}
+
+.isActivity {
+  padding-left: 50px;
+}
+
+.activitySelectLine {
+  display: flex;
+  position: relative;
+}
+
+.activitySelectLine > p {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 9px;
+}
+
+.getActivity input[type="radio"] {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  /* padding: 10px; */
+  margin-top: 18px;
+  margin-left: 60px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.getActivity input[type="radio"]:checked {
+  background: url("./whiteSelect.png");
+  background-size: cover;
+  background-color: #ed8c4e;
+}
+
+.rdoBtn_radio {
+  margin: 5px;
+}
+
+/* .rdoBtn_radio > span {
+  position: absolute;
+  margin-top: 100px;
+} */
+.iii {
+  font-size: 20px;
+  margin-top: 8px;
+  position: absolute;
+}

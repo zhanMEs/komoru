@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li,ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* 上面為全域設定 */
+
+.li--marginright{
+  margin-rleft: 80px;
+  padding:40px 0 !important;
+}
+/* react button怎改 */
+Button{
+  margin-left: 20px;
+}
+
+.navbar{
+  background-color: rgba(255,255,255,0.97);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  box-shadow: 0px 1px 5px rgba(103, 103, 103, 0.1);
+}
+
+.sticky-top {
+  position:sticky;
+}
+
+.navbar--title{
+margin-left: 150px;
+}
+
+.navbar--menu{
+  /* border:#454545 1.5px solid; */
+  margin-right: 150px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar--item{
+  margin-left: 20px;
+  color: #454545;
+  text-decoration: none;
+  padding: 0px 30px 0px 0px;
+  font-size:1.4rem;
+  font-weight:400;
+}
+
+.navbar--item:hover{
+  text-decoration: none;
+  color: #E6E6E6;
+}
+
+.logout{
+  margin-left: 50px;
+}

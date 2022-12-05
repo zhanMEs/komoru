@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.login--container {
+  margin: 0 auto;
+  max-width: 976px;
+}
+
+.login--wrap{
+		text-align: center;  
+		animation:mymoveL 5s infinite; /*animation 時間 播放次數*/  
+		animation-direction: alternate; /*是否循環交替反向播放動畫*/ 
+		/*Safari 和 Chrome:*/
+		-webkit-animation:mymoveL 5s infinite;
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 10%;
+    overflow: visible;
+    padding-bottom: 1px;
+}
+
+@keyframes mymoveL {
+  0% {opacity: 0.5;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes mymoveL 
+{
+  0% {background-image:url(../../../public/KOMORU_2.png)}    
+  25% {background-image:url(../../../public/KOMORU_1.png)}  
+  75% {background-image:url(../../../public/KOMORU_2.png)}  
+  100% {background-image:url(../../../public/KOMORU_3.png)}  
+}  
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes mymoveL
+{
+  0% {background-image:url(../../../public/KOMORU_2.png)}    
+  25% {background-image:url(../../../public/KOMORU_1.png)}  
+  75% {background-image:url(../../../public/KOMORU_2.png)}  
+  100% {background-image:url(../../../public/KOMORU_3.png)}  
+}
+
+/* 上面為全域設定 */
+
+.login {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: start;
+}
+
+.login--title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.01em;
+}
+
+.login--input--L {
+  padding: 12px;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 1px solid #808080;
+}
+
+.login--submit {
+  background: #ED8C4E;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.login--submit:hover{
+  background: #CF5100;
+}
+
+.text-wine {
+  color: #CF5100;
+}
+
+.btn-wine {
+  background: #960000;
+  color: #fff;
+}
+
+.login--subTitle {
+  color: #454545;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 52px;
+  letter-spacing: 0.01em;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.login--forgot {
+  font-size: 16px;
+  float: right;
+  padding: 5px;
+  background: #000;
+  color: #fff;
+  border: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+.login--other {
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.login--block {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 5px;
+}
+
+.LINE{
+  background:url('../../../public/lineicon.jpeg');
+  background-position: center;
+}
+
+.FB{
+  background:url('../../../public/fbicon.jpeg');
+  background-position: center;
+}
+
+.GOOGLE{
+  background:url('../../../public/googleicon.jpeg');
+  background-position: center;
+}
+
+.LINE:hover{
+  background:url('../../../public/icon_line.jpeg');
+  background-position: center;
+}
+
+.FB:hover{
+  background:url('../../../public/icon_fb.jpeg');
+  background-position: center;
+}
+
+.GOOGLE:hover{
+  background:url('../../../public/icon_google.jpeg');
+  background-position: center;
+}

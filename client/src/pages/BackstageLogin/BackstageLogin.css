@@ -1,0 +1,27 @@
+
+.BackstageLogin-backgorund {
+    background-image: url(../../assets/BackstageLoginKOMORU10.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+}
+.form-control:focus{
+    box-shadow:none;
+    border-color:#ED8C4E
+}
+
+.form-select:focus{
+    box-shadow:none;
+    border-color:#ED8C4E
+}
+
+.form-check-input:focus{
+    box-shadow:none;
+    /* border-color:#ED8C4E */
+}
+.btn:focus{
+    box-shadow:none;
+    /* border-color:#ED8C4E */
+}

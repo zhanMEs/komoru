@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li,ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.forgotPW--wrap{
+  text-align: center;  
+  animation:mymove 8s infinite; /*animation 時間 播放次數*/  
+  animation-direction:alternate; /*是否循環交替反向播放動畫*/ 
+  /*Safari 和 Chrome:*/
+  -webkit-animation:mymove 5s infinite;
+  background-repeat: no-repeat;
+  background-position: bottom 0px right 10%;
+  overflow: visible;
+  padding-bottom: 10px;
+}
+
+@keyframes mymove  
+{
+0% {background-image:url(../../../public/1.png)}  
+50% {background-image:url(../../../public/2.png)}  
+100% {background-image:url(../../../public/3.png)}  
+}  
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes mymove
+{
+0% {background-image:url(../../../public/1.png)}  
+50% {background-image:url(../../../public/2.png)}  
+100% {background-image:url(../../../public/3.png)}  
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 976px;
+}
+
+/* 上面為全域設定 */
+
+.forgotPW{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.forgotPW--title{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height, or 130% */
+  letter-spacing: 0.01em;
+}
+
+.forgotPW--hint{
+  padding: 20px 0;
+}
+
+.forgotPW--input--L{
+  padding: 12px;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.forgotPW--submit:hover{
+  background: #CF5100;
+}
+
+.forgotPW--submit{
+  background: #ED8C4E;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  /* identical to box height, or 208% */
+  letter-spacing: 0.01em;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+
+}
+
+.forgotPW--back{
+  text-decoration:none;
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  padding:15px;
+  background: #D9D9D9;
+  color: #111;
+  width: 100%;
+  border: none;
+}
+
+.forgotPW--back:hover{
+  text-decoration:none;
+  color: #fff;
+}

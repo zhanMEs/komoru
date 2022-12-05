@@ -1,0 +1,86 @@
+{
+    "status": true,
+    "errMsg": "",
+    "dataList": [
+        {
+            "roomId": 1,
+            "hotelId": 1,
+            "roomType": "單人房",
+            "liveNum": 12,
+            "roomImgPath": "/images/room/room-1.jpeg",
+            "hotelTitle": "Star Hostel",
+            "cityId": 2,
+            "cityName": "台中市"
+        },
+        {
+            "roomId": 2,
+            "hotelId": 1,
+            "roomType": "背包客",
+            "liveNum": 20,
+            "roomImgPath": "/images/room/room-5.jpeg",
+            "hotelTitle": "Star Hostel",
+            "cityId": 2,
+            "cityName": "台中市"
+        },
+        {
+            "roomId": 3,
+            "hotelId": 2,
+            "roomType": "單人房",
+            "liveNum": 12,
+            "roomImgPath": "/images/room/room-14.jpeg",
+            "hotelTitle": "快活慢行",
+            "cityId": 3,
+            "cityName": "台南市"
+        },
+        {
+            "roomId": 4,
+            "hotelId": 3,
+            "roomType": "單人房",
+            "liveNum": 12,
+            "roomImgPath": "/images/room/room-11.jpeg",
+            "hotelTitle": "山林山鄰",
+            "cityId": 4,
+            "cityName": "台東市"
+        },
+        {
+            "roomId": 5,
+            "hotelId": 4,
+            "roomType": "單人房",
+            "liveNum": 12,
+            "roomImgPath": "/images/room/room-9.jpeg",
+            "hotelTitle": "夾腳拖的家Flip Flop Hostel",
+            "cityId": 1,
+            "cityName": "台北市"
+        },
+        {
+            "roomId": 6,
+            "hotelId": 2,
+            "roomType": "背包客",
+            "liveNum": 20,
+            "roomImgPath": "/images/room/room-13.jpeg",
+            "hotelTitle": "快活慢行",
+            "cityId": 3,
+            "cityName": "台南市"
+        },
+        {
+            "roomId": 7,
+            "hotelId": 3,
+            "roomType": "背包客",
+            "liveNum": 20,
+            "roomImgPath": "/images/room/room-12.jpeg",
+            "hotelTitle": "山林山鄰",
+            "cityId": 4,
+            "cityName": "台東市"
+        },
+        {
+            "roomId": 8,
+            "hotelId": 4,
+            "roomType": "背包客",
+            "liveNum": 20,
+            "roomImgPath": "/images/room/room-10.jpeg",
+            "hotelTitle": "夾腳拖的家Flip Flop Hostel",
+            "cityId": 1,
+            "cityName": "台北市"
+        }
+    ]
+}

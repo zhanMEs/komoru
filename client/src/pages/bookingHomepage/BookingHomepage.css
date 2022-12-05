@@ -1,0 +1,26 @@
+.bookingHomepageContainer {
+  /* display: flex; */
+  position: relative;
+}
+
+.bookingBreadcrumbs {
+  display: flex;
+  margin: 40px 0px 0px 159px;
+  position: absolute;
+  font-size: 20px;
+  z-index: 1000;
+}
+
+.bookingBreadcrumbs > p,
+.bookingBreadcrumbs > Link {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.bookingBreadcrumbs > span {
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+.bookingFooter {
+  margin-top: 100px;
+}

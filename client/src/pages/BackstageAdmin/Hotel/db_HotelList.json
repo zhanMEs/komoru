@@ -1,0 +1,10 @@
+[
+    {"id":1,"hotelName":"001","contactPerson":"s", "area":"123","phone":"2","photo":"in"},
+    {"id":2,"hotelName":"002","contactPerson":"m", "area":"123","phone":"2","photo":"in"},
+    {"id":3,"hotelName":"003","contactPerson":"g", "area":"123","phone":"2","photo":"in"},
+    {"id":4,"hotelName":"004","contactPerson":"d", "area":"123","phone":"2","photo":"in"},
+    {"id":5,"hotelName":"005","contactPerson":"h", "area":"123","phone":"2","photo":"in"},
+    {"id":6,"hotelName":"006","contactPerson":"a", "area":"123","phone":"2","photo":"in"},
+    {"id":7,"hotelName":"007","contactPerson":"q", "area":"123","phone":"2","photo":"in"},
+    {"id":8,"hotelName":"008","contactPerson":"e", "area":"123","phone":"2","photo":"in"}
+]

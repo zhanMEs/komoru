@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 976px;
+}
+
+/* 上面為全域設定 */
+
+.AlertModal {
+  background: #F4F5F7;
+  margin: 0 auto;
+  padding: 20px 40px;
+  position: relative;
+  text-align: center;
+  
+}
+
+.AlertModal--text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+.AlertModal--EN {
+  color:#ED8C4E;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+
+@media (min-width: 576px){
+  .modal-dialog {
+      max-width: 50%;
+      margin: 10% auto;
+  }
+  }
+  
+  .modal-body{
+    padding: 0;
+  }

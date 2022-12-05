@@ -1,0 +1,168 @@
+.ContactUsContainer {
+  display: flex;
+  margin: 174px 150px auto;
+  padding-bottom: 100px;
+}
+
+.leftContent {
+  width: 815px;
+  height: 616px;
+  background-color: #ed8c4e;
+  color: white;
+  padding: 40px 70px;
+}
+.leftContent > h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.leftContent > p {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.contactForm,
+.recieveContent {
+  position: relative;
+  width: 805px;
+  height: 616px;
+  border: 1px solid black;
+}
+
+.contactForm > h1 {
+  color: #808080;
+  margin: 40px 0px 40px 60px;
+}
+
+.contactForm > input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contactForm > p {
+  display: flex;
+  margin-left: 60px;
+}
+
+/* .recieveContent > p {
+  display: block;
+  margin: 200px 0px 0px 100px;
+  font-size: 50px;
+  color: gray;
+} */
+/* 
+.contactIcon {
+  font-size: 45px;
+  color: #808080;
+  margin-right: 10px;
+  position: static;
+  margin-top: 5px;
+} */
+
+.basicText {
+  font-size: 20px;
+  width: 655px;
+  height: 64px;
+  border-radius: 3px;
+}
+
+.messegeText {
+  font-size: 20px;
+  width: 655px;
+  height: 200px;
+  line-height: 50px;
+  outline: 1px solid;
+  border-radius: 3px;
+}
+
+.submitBtn {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 70px;
+  height: 32px;
+  font-size: 16px;
+  background-color: #ed8c4e;
+  color: white;
+}
+
+.ContactUs-IoMdAlert {
+  color: red;
+  position: static;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+/* contactUsModal設定 */
+/* .contactUsModalOverlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  overflow-y: scroll;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.contactUsModalContainer {
+  width: 1000px;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: white;
+  box-shadow: 5px 0px 20px 0px rgba(237, 140, 78, 0.75);
+  z-index: 200;
+}
+
+.contactUsModalContainer > span {
+  font-size: 50px;
+  right: 25px;
+}
+
+.contactUsModalContainer > p {
+  font-size: 50px;
+  text-align: center;
+  margin: 200px auto;
+}
+
+.contactUsCloseBtn {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  font-size: 20px;
+  cursor: pointer;
+} */
+
+input:focus {
+  outline-color: #ed8c4e;
+}
+
+textarea:focus {
+  outline-color: #ed8c4e;
+}
+
+select:focus {
+  outline-color: #ed8c4e;
+}
+
+.ContactUs--titleBar {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 200px;
+  background: url("../../../public/yannik-mika.jpg");
+}
+
+.ContactUs--bg--fix {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+}

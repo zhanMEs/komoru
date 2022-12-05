@@ -1,0 +1,184 @@
+.orderContainer {
+  margin: 80px auto;
+  width: 1620px;
+  position: relative;
+  background-color: #f4f5f7;
+  padding-top: 80px;
+}
+
+.orderwrap {
+  padding-bottom: 60px;
+}
+
+.memberCheckout {
+  border: 1px solid black;
+  width: 1280px;
+  margin-left: 168px;
+  padding-bottom: 50px;
+  background-color: white;
+  line-height: 24px;
+}
+
+.memberCheckoutHeader,
+.orderListHeader {
+  margin: 50px 0px 50px 45px;
+  line-height: 35px;
+}
+
+.memberCheckout > h1,
+.orderListHeader > h1 {
+  font-size: 40px;
+}
+
+.memberCheckoutHeader > p,
+.orderListHeader > p {
+  font-size: 20px;
+  color: #888888;
+}
+
+.memberCheckoutTable {
+  font-size: 20px;
+  margin-left: 50px;
+  line-height: 50px;
+}
+
+.specialSpan {
+  padding-left: 40px;
+  color: #888888;
+}
+
+.memberCheckoutTable tbody tr td span {
+  margin-left: 50px;
+  color: #888888;
+}
+
+.memberCheckoutTable tbody tr td {
+  padding-right: 200px;
+}
+
+.orderList {
+  margin-left: 168px;
+  margin-top: 70px;
+  border: 1px solid black;
+  width: 1280px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.payMethodContent {
+  display: flex;
+}
+
+.marginContainer {
+  margin: 10px 100px;
+  width: 1280px;
+  margin-left: 168px;
+}
+.marginContainer > h5 {
+  border-bottom: 1px solid black;
+  background-color: #ed8c4e;
+  color: white;
+  font-size: 28px;
+  padding: 15px;
+}
+
+.plusBuy {
+  margin-top: 100px;
+  border: 1px solid black;
+  position: relative;
+  background-color: white;
+  color: #808080;
+}
+
+.plusBuy > p {
+  padding: 20px 0px 20px 15px;
+  font-size: 20px;
+}
+
+.plusBuy p span {
+  position: absolute;
+  font-size: 20px;
+  right: 10px;
+}
+
+.Total {
+  padding: 15px 0px 80px 15px;
+  position: relative;
+  color: #808080;
+}
+
+.Total p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.Total p span {
+  position: absolute;
+  font-size: 20px;
+  right: 10px;
+}
+
+.Total button {
+  background-color: #0e78ff;
+  color: white;
+  padding: 10px 30px;
+  right: 100px;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 20px;
+}
+
+.activityList {
+  margin-top: 40px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.orderListBody {
+  display: flex;
+}
+
+.orderListImg {
+  margin-left: 50px;
+}
+
+.orderListImg img {
+  width: 550px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.orderListAll {
+  margin-left: 50px;
+  line-height: 50px;
+}
+
+.list {
+  display: flex;
+}
+
+.list > p {
+  font-size: 20px;
+  padding-left: 20px;
+  width: 180px;
+}
+
+.list > span {
+  font-size: 20px;
+}
+
+.line {
+  margin: 0px auto;
+  width: 1457px;
+  border-bottom: 1px #808080 solid;
+  padding-bottom: 100px;
+}
+
+.orderIoMdAlert {
+  color: red;
+  position: static;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
